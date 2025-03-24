@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.nianticlabs.lightship": {
-      "version": "file:C:/Users/Murat/Downloads/ardk-upm-3.10.0.tgz",
+      "version": "file:C:/Users/Murat/Downloads/ardk-upm-3.12.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -18,13 +18,24 @@
       }
     },
     "com.nianticlabs.lightship.sharedar": {
-      "version": "file:C:/Users/Murat/Downloads/sharedar-upm-3.10.0.tgz",
+      "version": "file:C:/Users/Murat/Downloads/sharedar-upm-3.12.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.nianticlabs.lightship": "3.10.0-2411021056",
+        "com.nianticlabs.lightship": "3.12.0-2502182052",
         "com.unity.netcode.gameobjects": "1.2.0"
       }
+    },
+    "com.unity.barracuda": {
+      "version": "https://github.com/Unity-Technologies/barracuda-release.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.burst": "1.6.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "hash": "eefb8cb01e6c6a3a9f839e93bd5d0338f0b5a2f5"
     },
     "com.unity.burst": {
       "version": "1.8.17",
@@ -90,6 +101,15 @@
         "com.unity.test-framework": "1.1.33",
         "com.unity.testtools.codecoverage": "1.2.5"
       }
+    },
+    "com.unity.ide.cursor": {
+      "version": "https://github.com/boxqkrtm/com.unity.ide.cursor.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "hash": "2c0153a9bab1abc783e5599fa2d2cc3c69d5e389"
     },
     "com.unity.ide.rider": {
       "version": "3.0.28",
@@ -242,29 +262,21 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr-content.xr-sim-environments": {
-      "version": "file:../ContentPackages\\com.unity.xr-content.xr-sim-environments-1.0.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.xr.arfoundation": "5.0.0"
-      }
-    },
     "com.unity.xr.arcore": {
-      "version": "5.1.5",
+      "version": "5.1.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.core-utils": "2.1.0",
         "com.unity.xr.management": "4.0.1",
-        "com.unity.xr.arfoundation": "5.1.5",
+        "com.unity.xr.arfoundation": "5.1.6",
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "5.1.5",
+      "version": "5.1.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -304,7 +316,7 @@
     },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.10",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
@@ -326,7 +338,7 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.11.0",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.inputsystem": "1.6.3",
